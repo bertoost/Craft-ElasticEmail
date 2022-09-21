@@ -26,8 +26,8 @@ Open your terminal and run the following commands:
 cd /path/to/my-project.test
 
 # tell Composer to load the plugin
-composer require bertoost/elasticemail-craft
+composer require bertoost/craft-elasticemail
 
 # tell Craft to install the plugin
-./craft install/plugin elasticemail
+./craft install/plugin elastic-email
 ```
