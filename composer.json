@@ -1,5 +1,5 @@
 {
-  "name": "bertoost/elasticemail-craft",
+  "name": "bertoost/craft-elasticemail",
   "description": "The Craft CMS implementation for the ElasticEmail email adapter",
   "type": "craft-plugin",
   "keywords": [
