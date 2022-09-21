@@ -1,0 +1,12 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.autosuggestField({
+    id: 'apiKey',
+    name: 'apiKey',
+    label: "API Key"|t('elastic-email'),
+    instructions: "You can find this in your Elastic Email settings for the chosen domain."|t('elastic-email'),
+    required: true,
+    suggestEnvVars: true,
+    value: adapter.apiKey,
+    errors: adapter.getErrors('apiKey')
+}) }}

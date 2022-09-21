@@ -1,0 +1,40 @@
+{
+  "name": "bertoost/elasticemail-craft",
+  "description": "The Craft CMS implementation for the ElasticEmail email adapter",
+  "type": "craft-plugin",
+  "keywords": [
+    "craft",
+    "craftcms",
+    "plugin",
+    "craftcms plugin",
+    "elastic email",
+    "mailer",
+    "adapter"
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Bert Oost",
+      "email": "hello@bertoost.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2 || ^8.0 || ^8.1",
+    "craftcms/cms": "^3.1.5 || ^4.1",
+    "bertoost/elasticemail-swiftmailer": "^1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "bertoost\\ElasticEmail\\Craft\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "ElasticEmail",
+    "handle": "elastic-email",
+    "hasCpSettings": false,
+    "developer": "Bert Oost",
+    "developerUrl": "https://bertoost.com",
+    "documentationUrl": "https://github.com/bertoost/Craft-ElasticEmail/blob/master/README.md"
+  }
+}
