@@ -20,8 +20,8 @@
     }
   ],
   "require": {
-    "php": "^7.2 || ^8.0 || ^8.1",
-    "craftcms/cms": "^3.1.5 || ^4.1",
+    "php": "^7.2 || ^8.0",
+    "craftcms/cms": "^3.1.5",
     "bertoost/elasticemail-swiftmailer": "^1.0.0"
   },
   "autoload": {
