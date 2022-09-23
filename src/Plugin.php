@@ -3,7 +3,6 @@
 namespace bertoost\ElasticEmail\Craft;
 
 use bertoost\ElasticEmail\Craft\adapters\ElasticEmailAdapter;
-use bertoost\mailjet\adapters\MailjetAdapter;
 use Craft;
 use craft\base\Plugin as BasePlugin;
 use craft\events\RegisterComponentTypesEvent;
