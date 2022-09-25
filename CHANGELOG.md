@@ -1,5 +1,11 @@
 # Craft CMS - Elastic Email adapter
 
+## v2.0.1 - 2022-09-25
+
+### Changed
+
+- Updated requirement for Symfony Mailer updates
+
 ## v2.0.0 - 2022-09-23
 
 ### Changed
