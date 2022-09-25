@@ -22,7 +22,7 @@
   "require": {
     "php": "^7.2 || ^8.0",
     "craftcms/cms": "^3.1.5",
-    "bertoost/elasticemail-swiftmailer": "^1.0.0"
+    "bertoost/elasticemail-swiftmailer": "^1.0.2"
   },
   "autoload": {
     "psr-4": {
