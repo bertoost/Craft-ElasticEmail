@@ -4,6 +4,7 @@
 
 ### Changed
 
+- Updated mailer version to 1.0.3
 - Fixed loading mail adapter settings template
 
 ## v2.0.1 - 2022-09-25
