@@ -34,7 +34,7 @@ class ElasticEmailAdapter extends BaseTransportAdapter
     public function attributeLabels(): array
     {
         return [
-            'apiKey' => Craft::t('elasticemail', 'API Key'),
+            'apiKey' => Craft::t('elastic-email', 'API Key'),
         ];
     }
 
@@ -48,7 +48,7 @@ class ElasticEmailAdapter extends BaseTransportAdapter
     public function getSettingsHtml(): ?string
     {
         return Craft::$app->getView()
-            ->renderTemplate('elasticemail/settings', [
+            ->renderTemplate('elastic-email/settings', [
                 'adapter' => $this,
             ]);
     }

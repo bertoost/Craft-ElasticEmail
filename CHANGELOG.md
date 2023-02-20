@@ -1,5 +1,11 @@
 # Craft CMS - Elastic Email adapter
 
+## v2.0.2 - 2023-02-20
+
+### Changed
+
+- Fixed loading mail adapter settings template
+
 ## v2.0.1 - 2022-09-25
 
 ### Changed
