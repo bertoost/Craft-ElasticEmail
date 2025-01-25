@@ -1,5 +1,12 @@
 # Craft CMS - Elastic Email adapter
 
+## v2.0.3 - 2025-01-25
+
+### Changed
+
+- Updated to support Craft CMS v5
+- 
+
 ## v2.0.2 - 2023-02-20
 
 ### Changed
